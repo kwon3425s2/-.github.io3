@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+    <style>
+        body {
+            width: 1520px;
+        margin: 1920 auto;
+        }
+        .clear {
+            clear: both;
+        }
+        #aside {
+            float: left;    /*--띄우다.. 가로로 나뉘는 영역에 클리어속성을 꼭 써줘야한다--*/
+            width: 760px;
+        }
+        #section {
+            float: right;
+            width: 756px;
+        }
+        a{margin-left:70px;} /*메뉴부분 마진주기*/
+        div {
+            border: solid 1px;
+        }
+        h1 {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 10px rgb(0, 0, 0);
+        }
+         h3 {
+        color: #56524d;
+        text-decoration: none;
+         }
+         p {
+        font-size: 14px;
+        line-height: 150%;
+            }
+         li {
+        list-style-type: circle;
+         }
+            span {
+        font-weight: bold;
+        color: brown;
+         }
+         
+         a:link, a:visited{
+        background-color: #bbb3a9;
+        color: #56524d;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none; /*텍스트 언더라인 없애기*/
+        display: inline-block;
+     }
+     a:hover{
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+     }
+    a:active{
+        color:#56524d;
+        text-decoration: none;
+    }
+    table, tr, th, td {
+                border: solid 3px white;
+                border-style:groove;
+                border-collapse: collapse;
+                padding: 3px;
+            }
+         
+    </style>
+</head>
+<body bgcolor="#F4EDE5">
+    <div id="header">
+        <h4><a href='22361009_권단우_직무능력수행평가2.html'>필모그래피 </a> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href='22361009_권단우_직무능력수행평가3.html'>게시판 </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href='22361009_권단우_직무능력수행평가6.html'>TMI </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href='22361009_권단우_직무능력수행평가4.html'>광고 </a> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href='22361009_권단우_직무능력수행평가5.html'>화보 </a>
+         </h4>
+    </div>
+    <div class="clear"></div>
+    <div id="aside">
+        <h3>고사모 게시판</h3>
+    <form>
+        <table>
+            <tr>
+                <td>이름</td><td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td><td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>이메일</td>
+                <td><input type="text">@
+                    <select>
+                        <option>선택하세요</option>
+                        <option>naver.com</option>
+                        <option>hanmail.net</option>
+                        <option>gmail.com</option>
+                        <option>직접 입력하세요</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <form>
+        <table>
+            <tr>
+                <td>제목</td><td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>내용</td><td><textarea cols="50" rows="6"></textarea></td>
+            </tr>
+            <tr>
+                <td>파일첨부</td><td><input type="file"></td>
+            </tr>
+            <tr>
+                <td></td><td>5M이하의 파일만 첨부 가능합니다.</td>
+            </tr>
+            <tr>
+                <td colspan='2'><button>업로드</button></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    
+    <div id="section">
+        <h3>Time Line</h3>
+            <table>
+                <tr>
+                    <td><b>고윤정사랑해</b><td>
+                </tr>
+                <tr>
+                    <td><small>아 진짜 오늘 윤정웅니 너무 충격적 아름다움으로 기절할뻔했습니다...
+                        <br> 다들 팬미팅 가시나요?!</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ㄴ 저는 실패요 ㅠㅠ 다음기회를 노릴려구요! &nbsp;&nbsp;<small>-윤정아결혼하자</small></td>
+                </tr>
+                <tr>
+                    <td>ㄴ 헐 저두 가요!! 고윤정 사랑해님도 가시나요? &nbsp;&nbsp;<small>-윤사모회원임돠</small></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;ㄴ 네!! 윤사모회원임돠님두 가시나봐요 ㅠㅠ 가면 함 뵈어요~ &nbsp;&nbsp;<small>-고윤정사랑해</small></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㄴ 아 당연하죠!! ㅎㅎ 가면 댓글남겨주세요^^ &nbsp;&nbsp;<small>-윤사모회원임돠</small></td>
+                </tr>
+                <tr><td></td></tr>
+                <tr>
+                    <td><b>마라탕먹고싶다</b></td>
+                </tr>
+                <tr>
+                    <td><small>배고프다</small></td>
+                </tr>
+                <tr><td></td></tr>
+                <tr>
+                    <td><b>단우</b></td>
+                </tr>
+                <tr>
+                    <td><small>다들화이팅!!^^^</small></td>
+                </tr>
+            </table>
+    </div>
+
+    <div class="clear"></div>
+    <div id="footer"><h4><a href='index3.html'>← 메인으로 이동 </a> </h4></div>
+    <div class="clear"></div>
+</body>
+</html>
